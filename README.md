@@ -3,7 +3,7 @@
 本仓库是最简版的 Wafer2 开发套件，建议配合腾讯云微信小程序开发者工具解决方案一起使用。适用于想要使用 Wafer SDK 开发的开发者，Demo 对 SDK 进行了详细的使用和介绍，降低开发者的学习成本。
 
 ## 预览（用微信扫码）
-![小程序二维码](https://mp.weixin.qq.com/wxopen/qrcode?action=show&type=2&fakeid=3508708232&token=925457583)
+![小程序二维码](https://img.snzfnm.com/gh_ec1f3ca5d278_344.jpg)
 ## 目录
 
 - [腾讯云一站式部署开通指引](#腾讯云一站式部署开通指引)
