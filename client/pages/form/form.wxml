@@ -1,0 +1,22 @@
+<!--pages/form/form.wxml-->
+<view class="form">
+  <view class="formItem">
+    <text>联系人:</text>
+    <input name="userName" type="text" placeholder="请输入联系人" bindinput="bindName" />
+  </view>
+  <view class="formItem">
+    <text>联系电话:</text>
+    <input name="userPhone" type="number" placeholder="请输入联系电话" bindinput="bindPhone"/>
+  </view>
+  <view class="formItem">
+    <text>上门地址:</text>
+    <input name="userAddress" type="text" bindinput="bindAddress" bindtap="chooseLocation" value="{{userAddress}}" placeholder='请选择位置' />
+  </view>
+  <view class="formItem">
+    <text>留言:</text>
+    <input name="words" type="text" placeholder="请输入给商家的留言" bindinput="bindWords"/>
+  </view>
+  <view class="submit">
+    <button class="btn" type="primary" bindtap="submit">提交</button>
+  </view>
+</view>

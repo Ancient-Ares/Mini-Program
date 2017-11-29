@@ -1,0 +1,22 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+  <view wx:if="{{array.length < 0 }}">暂无数据</view>
+  <view class="formList" wx:if="{{array.length > -1}}" wx:for="{{array}}" wx:key="{{index}}">
+    <view class="header">
+      <view class="name">{{item.username}}</view>
+      <view class="time">{{item.posttime}}</view>
+    </view>
+    <view class="phone" bindtap="makeCall" data-phone="{{item.userphone}}">
+      <view class="text">电话：</view>
+      <view class="words">{{item.userphone}}</view>
+    </view>
+    <view class="msg">
+      <view class="text">地址：</view>
+      <view class="words">{{item.useraddress}}</view>
+    </view>
+    <view class="msg">
+      <view class="text">留言：</view>
+      <view class="words">{{item.userwords}}</view>
+    </view>
+  </view>
+</view>

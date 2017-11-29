@@ -1,0 +1,62 @@
+/* pages/index/index.wxss */
+
+page {
+  background-color: #f1f1f1;
+  padding: 20px 0 0 0;
+}
+
+.indexItem {
+  width: 85%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 2px #eee;
+}
+
+.indexItem .img {
+  vertical-align: middle;
+  margin-top: 10px;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+}
+
+.indexItem text {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+
+.info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 2px #eee;
+}
+
+.infoItem {
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+}
+.infoItem .img {
+  vertical-align: middle;
+  margin-top: 10px;
+  display: inline-block;
+  width:40px;
+  text-align: center;
+}
+.infoItem text {
+  font-size: 0.8rem;
+  color: #333;
+  margin-left: 10px;
+  margin-top: 2px;
+}

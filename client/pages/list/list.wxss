@@ -1,0 +1,28 @@
+/* pages/list/list.wxss */
+
+.list {
+  padding: 20px;
+}
+
+.formList {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.header, .phone, .msg {
+  display: flex;
+  margin: 5px 0;
+}
+
+.name, .time, text, .words {
+  flex: 1;
+  color: #333;
+  font-size: 1rem;
+}
+.time {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #333;
+}

@@ -1,0 +1,49 @@
+<!--pages/indexx/index.wxml-->
+<view class="indexBox">
+  <navigator class="indexItem" url="/pages/form/form?type=1" hover-class="navigator-hover">
+    <view class="img">
+      <image style="width: 61.2px; height: 57.6px;" src="../../assets/images/comm1.png"></image>
+    </view>
+    <text>上门安装系统</text>
+  </navigator>
+  <navigator class="indexItem" url="/pages/form/form?type=2" hover-class="navigator-hover">
+    <view class="img">
+      <image style="width: 60px; height: 61.2px;" src="../../assets/images/comm2.png"></image>
+    </view>
+    <text>上门安装苹果电脑双系统win</text>
+  </navigator>
+  <navigator class="indexItem" url="/pages/form/form?type=3" hover-class="navigator-hover">
+    <view class="img">
+      <image style="width: 46.8px; height: 60px" src="../../assets/images/comm3.png"></image>
+    </view>
+    <text>上门安装京东淘宝电脑配件</text>
+  </navigator>
+  <navigator class="indexItem" url="/pages/form/form?type=4" hover-class="navigator-hover">
+    <view class="img">
+      <image style="width: 60px; height: 56.4px;" src="../../assets/images/comm4.png"></image>
+    </view>
+    <text>上门服务电脑黑屏、蓝屏、不开机修理</text>
+  </navigator>
+  
+  <view class="info">
+    <view class="infoItem" bindtap="makePhoneCall">
+      <view class="img">
+        <image style="width: 32px; height: 32px" src="../../assets/images/telphone.png"></image>
+      </view>
+      <text>{{telphone}}</text>
+    </view>
+    <view class="infoItem" bindtap='openLocation'>
+      <view class="img">
+        <image style="width: 32px; height: 32px" src="../../assets/images/address.png"></image>
+      </view>
+      <text>{{address}}</text>
+    </view>
+    <view class="infoItem" bindtap="openLocation">
+      <view class="img">
+        <image style="width: 32px; height: 32px" src="../../assets/images/company.png"></image>
+      </view>
+      <text>{{name}}</text>
+    </view>
+  </view>
+ 
+</view>

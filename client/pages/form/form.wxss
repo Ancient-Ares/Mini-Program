@@ -1,0 +1,19 @@
+/* pages/form/form.wxss */
+.formItem {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+.formItem text {
+  padding: 0 10px 0 15px;
+  flex: 0 0 95px;
+}
+.formItem input {
+  height: 50px;
+  line-height: 50px;
+  min-width: 235px;
+}
+.form .submit {
+  margin: 20px;
+}
